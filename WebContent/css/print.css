@@ -1,0 +1,40 @@
+@charset "utf-8";
+/*-------------------------------------------------
+Author : KIM KYE YOUNG 김계영
+Last update :2021. 03. 12.
+-------------------------------------------------*/
+
+.print-content { position: relative; width: 210mm; height: 297mm; margin: 0 auto; box-sizing: content-box; padding: 15mm; font-size: 15pt; text-align: center; font-family:"궁서"; }
+.print-bg { position: absolute; z-index: -1; top: 0; left: 0; width: 100%; height: 100%;}
+.print-bg-img { width: 100%; vertical-align: top;}
+.print-content .number { text-align: left; margin: 25mm 0 0 15mm; font-size: 15pt; font-weight: 500;}
+.print-content h1 { font-family:"궁서"; font-size: 45pt; margin-top: 20mm; letter-spacing: 10mm;}
+.print-content dl { text-align: left; line-height: 25pt; margin: 20mm 0 0 30mm; font-weight: 400;}
+.print-content dt { width: 32mm; display: inline-block;}
+.print-content dt::after { content: ':'; position: absolute; left: 75mm;}
+.print-content dd { width: 120mm; display: inline-block;}
+.print-content p { font-size: 20pt; font-weight: 500; margin-top: 30mm; line-height: 60pt;}
+.print-content em { display: block; margin-top: 20mm; font-style: normal; font-size: 20pt; font-weight: 500;}
+.print-content strong { display: block; margin-top: 30mm; font-size: 30pt;}
+
+.print-content2 { position: relative; width: 180mm; height: auto; margin: 0 auto;box-sizing: content-box; font-size: 13pt; text-align: center; margin-top: 20mm; line-height: 23pt; font-weight: 400;-webkit-print-color-adjust:exact;}
+.print-content2 h1 { font-size: 17pt; }
+.print-content2 p { width: 100mm; padding: 5mm;}
+.print-content2 em {font-style: normal;}
+.print-con { display: flex;}
+.print-con div { padding: 10mm 0; border: 1mm solid #1f3a89;}
+.print-con div:nth-of-type(2) { width: 80mm; background: #1f3a89; color:#fff; border-left: none;}
+.print-content2 dl { width: 75mm; text-align: left; padding: 5mm 0 0 5mm;}
+.print-content2 dt { width: 22mm; display: inline-block; text-align: justify;
+  text-justify: inter-word;}
+.print-content2 dt::after { content: ':'; position: absolute; left: 126mm;}
+.print-content2 dd { width: 45mm; display: inline-block; vertical-align: top;}
+
+@page {
+  /* size: A4; */
+  margin: 0;
+}
+@media print {
+    html, body { width: 210mm; height: 297mm;}
+    .print-con .border { border-left: none;}
+}

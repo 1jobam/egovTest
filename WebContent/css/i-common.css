@@ -1,0 +1,49 @@
+/*# sourceURL=/css/i-common.css */
+/*@ sourceURL=/css/i-common.css */
+* {margin:0; padding:0; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; word-break: keep-all;}
+html,body{max-width: 100%; min-height: 100%;}
+html{overflow-x: hidden; -webkit-text-size-adjust: none;}
+body{-webkit-print-color-adjust:exact; background: #fff; font-family: 'Jost', 'Noto Sans KR', sans-serif; font-style: normal; font-size: 16px; font-weight: 300; color: #0f0f0f; line-height: 1.5; letter-spacing: -0.5px;}
+ul, li, dl,dt,dd {margin:0;padding:0;list-style:none}
+a{color:#0f0f0f;text-decoration:none;}
+img {border: 0; font-size: 0; max-width: 100%; vertical-align: middle;}
+h1, h2, h3, h4, h5, h6{font-size:1em;font-family: 'Jost', 'Noto Sans KR', sans-serif;}
+textarea, select{font-family: 'Jost', 'Noto Sans KR', sans-serif;font-size:1em}
+input, button{margin:0;padding:0;font-family: 'Jost', 'Noto Sans KR', sans-serif;font-size:1em}
+input[type="submit"], button{cursor:pointer}
+table, tr, td { border-collapse: collapse;}
+p{word-break: keep-all;}
+
+/*sound only*/
+.i-sound{display: inline-block !important; position: absolute; top: 0; left: 0; width: 0; height: 0; margin: 0 !important; padding: 0 !important; font-size: 0; line-height: 0; border: 0 !important; overflow: hidden !important;}
+
+/*컨텐츠 가이드라인*/
+.i-wrapper{width: 1280px; max-width: 100%; margin: 0 auto;}
+.i-wrapper2{width: 1400px; max-width: 100%; margin: 0 auto;}
+
+/*clearfix*/
+.i-cf:before,
+.i-cf:after{content: " "; display: table;}
+.i-cf:after{clear: both;}
+.i-cf{*zoom: 1;}
+
+/* arrow symbol */
+i.i-arrow{display: inline-block; border: solid #000; border-width: 0 1px 1px 0; padding: 10px;}
+i.i-up{transform: rotate(-135deg); -webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg); -ms-transform: rotate(-135deg); -o-transform: rotate(-135deg);}
+i.i-down{transform: rotate(45deg); -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg);}
+i.i-right{transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg);}
+i.i-left{transform: rotate(135deg); -webkit-transform: rotate(135deg); -moz-transform: rotate(135deg); -ms-transform: rotate(135deg); -o-transform: rotate(135deg);}
+
+/*notosans font class*/
+.i-noto{font-family: 'Noto Sans KR', sans-serif;}
+
+/*20210217 테이블 캡션 숨김처리*/
+table caption{
+
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+
+
+}

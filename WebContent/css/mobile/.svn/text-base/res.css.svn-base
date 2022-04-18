@@ -1,0 +1,8 @@
+.datepicker{
+	min-width : 200px;
+	width : auto;
+}
+
+.rsrvBox_lists{
+	margin-bottom : 5px;
+}

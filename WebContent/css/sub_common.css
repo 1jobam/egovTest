@@ -1,0 +1,202 @@
+@charset "utf-8";
+@import "reset.css";
+@import "layout.css";
+@import "common.css";
+@import "board.css";
+
+
+/* [공통] contents layout */
+.contents .detailes_cnt {margin-top:40px;}
+.contents .detailes_cnt .cnt_wrap {width:800px;margin:0 auto;}
+
+/* [공통] title style */
+.contents .detailes_cnt h4 {margin-top:20px;padding:2px 0 2px 22px;background: url("/common/job/img/bg/bul/bul_h401.gif") no-repeat left 50%;font-size:15px;font-weight:600;color:#111111;}
+.contents .detailes_cnt h4 span {display:inline-block;margin-right:10px;font-size:15px;font-weight:600;}
+.contents .detailes_cnt h4 span.detaile_data {color:#ff6600;}
+.contents .detailes_cnt h4.member_h4 {margin-top:66px;}
+.contents .detailes_cnt h4.title_h4 {margin-top:40px;}
+.contents .detailes_cnt h5 {margin:5px 0;padding-left:13px;background: url("/common/job/img/bg/bul/bul_donut_blue.gif") no-repeat left 50%;font-size:13px;color:#0075b0;}
+.contents .detailes_cnt h5.cnt_title5 {margin:14px 0 0 0;padding-left:28px;background: url("/common/job/img/bg/bul/bul_h5typel.png") no-repeat left 50%;}
+.contents .detailes_cnt h5.cnt_title5 span {display:inline-block;padding:9px 32px 8px 0;background: url("/common/job/img/bg/bul/bul_h5typer.png") no-repeat right 50%;font-size:15px;color:#ffffff;line-height:1em;}
+.contents .detailes_cnt h5.cnt_title6 {margin:26px 0 0 0;padding-left:8px;background: url("/common/job/img/bg/back/step01_l.gif") no-repeat left 0;}
+.contents .detailes_cnt h5.cnt_title6 span {display:inline-block;background:url("/common/job/img/bg/back/step01_r.gif") no-repeat right 0;background-color:#45c6c8;color:#ffffff;font-size:15px;}
+.contents .detailes_cnt h5.cnt_title7 {margin:26px 0 0 0;padding-left:8px;background: url("/common/job/img/bg/back/step02_l.gif") no-repeat left 0;}
+.contents .detailes_cnt h5.cnt_title7 span {display:inline-block;background:url("/common/job/img/bg/back/step02_r.gif") no-repeat right 0;background-color:#3e91cf;color:#ffffff;font-size:15px;}
+.contents .detailes_cnt h5.cnt_title8 {margin:26px 0 0 0;padding-left:8px;background: url("/common/job/img/bg/back/step03_l.gif") no-repeat left 0;}
+.contents .detailes_cnt h5.cnt_title8 span {display:inline-block;background:url("/common/job/img/bg/back/step03_r.gif") no-repeat right 0;background-color:#4b66c1;color:#ffffff;font-size:15px;}
+.contents .detailes_cnt h5.cnt_title9 {margin:26px 0 0 0;padding-left:8px;background: url("/common/job/img/bg/back/step04_l.gif") no-repeat left 0;}
+.contents .detailes_cnt h5.cnt_title9 span {display:inline-block;background:url("/common/job/img/bg/back/step04_r.gif") no-repeat right 0;background-color:#6b55b7;color:#ffffff;font-size:15px;}
+.contents .detailes_cnt h5.cnt_title10 {margin:26px 0 0 0;padding-left:8px;background: url("/common/job/img/bg/back/step05_l.gif") no-repeat left 0;}
+.contents .detailes_cnt h5.cnt_title10 span {display:inline-block;background:url("/common/job/img/bg/back/step05_r.gif") no-repeat right 0;background-color:#9c55b7;color:#ffffff;font-size:15px;}
+.contents .detailes_cnt h5.cnt_title11 {margin:26px 0 0 0;padding-left:8px;background: url("/common/job/img/bg/back/step06_l.gif") no-repeat left 0;}
+.contents .detailes_cnt h5.cnt_title11 span {display:inline-block;background:url("/common/job/img/bg/back/step06_r.gif") no-repeat right 0;background-color:#b1498a;color:#ffffff;font-size:15px;}
+
+/* [공통] contents tab */
+.contents .detailes_cnt .table_tab {overflow:hidden;width:100%;background: url("/common/job/img/bg/back/bg_tab01.gif") repeat-x 0 49px;}
+.contents .detailes_cnt .table_tab li {float:left;text-align:center;}
+.contents .detailes_cnt .table_tab li a {display:block;padding:17px 6px 15px;background:#f2f3f5;border-width:1px 1px 0 1px;border-style:solid;border-color:#d1d1d1 #d1d1d1 #86a9f1 #d1d1d1;font-size:16px;color:#666666;line-height:1em;}
+.contents .detailes_cnt .table_tab li a.on {background:#ffffff;border-width:2px;border-style:solid solid solid solid;border-color:#86a9f1 #86a9f1 #ffffff #86a9f1;font-size:16px;color:#444444;}
+
+/* [공통] text_box_style */
+.contents .detailes_cnt .text_box {margin-top:10px;padding:0 10px 10px 10px;background:#f8f8fa;border:1px solid #e6e6e7;}
+
+/* [공통] image_box_style */
+.contents .detailes_cnt .img_wrap {margin-top:11px;padding:34px 0;border:1px solid #e7e7e7;text-align:center;}
+.contents .detailes_cnt .img_wrap02 {margin-top:15px;text-align:center;}
+
+/* [공통] dl_style */
+.dl_type01 dt {margin-top:11px;background: url("/common/job/img/bg/back/dl_style01_l.gif") no-repeat left 50%;}
+.dl_type01 dt span {display:inline-block;margin-left:17px;padding:11px 17px 11px 0;background: url("/common/job/img/bg/back/dl_style01_r.gif") no-repeat right 50%;font-size:14px;font-weight:600;color:#ffffff;line-height:1em;}
+.dl_type01 dd {margin-top:13px;padding-left:14px;font-size:13px;font-weight:600;color:#7d7d7d;line-height:1em;}
+.dl_type02 {overflow:hidden;margin-top:11px;}
+.dl_type02 dt {float:left;margin-left:10px;padding-left:10px;background: url("/common/job/img/bg/bul/bul_dot03.gif") no-repeat left 5px;font-size:14px;font-weight:600;color:#7d7d7d;line-height:1.5em;}
+.dl_type02 dd {float:left;padding-left:14px;font-size:14px;font-weight:600;color:#7d7d7d;line-height:1.5em;}
+
+/* [공통] ul_style */
+.ul_type01 {margin:20px 0 0 15px;}
+.ul_type01 > li {margin-top:5px;padding-left:9px;background: url("/common/job/img/bg/bul/p_style01.gif") no-repeat left 7px;font-size:13px;font-weight:600;color:#7d7d7d;line-height:1.5em;}
+.ul_type02 {margin:20px 0 0 15px;}
+.ul_type02 > li {padding-left:14px;background: url("/common/job/img/bg/bul/bul_dot03.gif") no-repeat left 5px;font-size:13px;font-weight:600;color:#7d7d7d;line-height:1.5em;}
+.ul_type01 .ul_type02 {margin:0 0 0 15px;}
+.ul_type03 {padding:24px;border:1px solid #e5e5e5;}
+.ul_type03 li {line-height:1.5em;}
+
+/* [공통] ol_style */
+.ol_type {margin:20px 0 0 15px;}
+.ol_type > li {font-size:13px;font-weight:600;color:#7d7d7d;line-height:1.5em;}
+.ol_type > li > .ul_type01 {margin:0 0 0 15px;}
+
+/* [공통] p_style */
+.p_type01 {margin:13px 0 0 15px;padding-left:9px;background: url("/common/job/img/bg/bul/p_style01.gif") no-repeat left 5px;font-size:13px;font-weight:600;color:#7d7d7d;line-height:1.5em;}
+.p_type02 {margin:13px 0 0 15px;font-size:13px;font-weight:600;color:#7d7d7d;line-height:1.5em;}
+
+/* [공통] 사이트링크 버튼 */
+.contents .detailes_cnt .cnt_wrap ul.btn_ul {overflow:hidden;margin-top:8px;}
+.contents .detailes_cnt .cnt_wrap ul.btn_ul li {float:left;width:50%;}
+.contents .detailes_cnt .cnt_wrap ul.btn_ul li a.btn_sitelink {display:block;margin:5px 5px 0;padding:18px 0 18px 20px;position:relative;background:#fafafa;border:1px solid #e5e5e5;;font-size:15px;font-weight:600;color:#707070;}
+.contents .detailes_cnt .cnt_wrap ul.btn_ul li a.btn_sitelink span {display:block;width:18px;height:18px;position:absolute;right:18px;top:17px;background: url("/common/job/img/bg/bul/btn_contents.png") no-repeat 0 0;}
+
+/* [단일] 회원정보관리 > 회원가입(약관) */
+.contents .detailes_cnt .member_tab {overflow:hidden;width:100%;background: url("/common/job/img/bg/back/bg_tab01.gif") repeat-x 0 49px;}
+.contents .detailes_cnt .member_tab li {float:left;width:33.3%;text-align:center;}
+.contents .detailes_cnt .member_tab li a {display:block;padding:17px 0 15px;background:#f2f3f5;border-width:1px 1px 0 1px;border-style:solid;border-color:#d1d1d1 #d1d1d1 #86a9f1 #d1d1d1;font-size:16px;color:#666666;line-height:1em;}
+.contents .detailes_cnt .member_tab li a.on {background:#ffffff;border-width:2px;border-style:solid solid solid solid;border-color:#86a9f1 #86a9f1 #ffffff #86a9f1;font-size:16px;color:#444444;}
+.contents .detailes_cnt .member_tab li span {display:block;padding:17px 0 15px;background:#f2f3f5;border-width:1px 1px 0 1px;border-style:solid;border-color:#d1d1d1 #d1d1d1 #86a9f1 #d1d1d1;font-size:16px;color:#666666;line-height:1em;}
+.contents .detailes_cnt .member_tab li span.on {background:#ffffff;border-width:2px;border-style:solid solid solid solid;border-color:#86a9f1 #86a9f1 #ffffff #86a9f1;font-size:16px;color:#444444;}
+.contents .detailes_cnt .stage_location {margin-top:39px;position:relative;text-align:right;}
+.contents .detailes_cnt .stage_location h4 {padding:2px 0 2px 22px;margin-top:0;position:absolute;left:0;bottom:0;background: url("/common/job/img/bg/bul/bul_h401.gif") no-repeat left 50%;font-size:15px;font-weight:600;color:#111111;}
+.contents .detailes_cnt .member_rool {margin-top:15px;border:1px solid #e7e7e7;}
+.contents .detailes_cnt .member_rool .check_yes {padding:14px;background:#f7f7f7;}
+.contents .detailes_cnt .member_rool .check_yes label {font-size:13px;color:#636363;}
+.contents .detailes_cnt .member_rool .check_yes label span {font-size:13px;color:#5285eb;}
+.contents .detailes_cnt .member_rool .rool_list {overflow-y:scroll;height:136px;padding:0 20px 0;border-top:1px solid #e7e7e7;}
+.contents .detailes_cnt .member_rool .rool_list p {padding-top:25px;font-size:13px;color:#585858;line-height:1.2em;}
+.contents .detailes_cnt .member_rool .rool_list p.tlt01 {font-weight:600;}
+
+/* [단일]  회원정보관리 > 회원가입(본인인증) */
+.contents .detailes_cnt .certification {width:100%;margin-top:9px;}
+.contents .detailes_cnt .certification .certification_rool {padding:0 19px 23px 19px;border:1px solid #e6e6e6;}
+.contents .detailes_cnt .certification .certification_rool ul li {margin-top:23px;padding-left:17px;background: url("/common/job/img/bg/bul/bul_dot02.gif") no-repeat 0 5px;font-size:12px;color:#666666;line-height:1.5em;}
+.contents .detailes_cnt .certification .certification_rool ul li span {font-size:12px;font-weight:600;color:#1565c0;}
+.contents .detailes_cnt .certification .business_number {margin-top:6px;padding:23px 19px;background:#f9f9f9;border:1px solid #dcdcdc;}
+.contents .detailes_cnt .certification .idpw_find {margin-top:6px;}
+.contents .detailes_cnt .certification .idpw_find li {padding:45px 0 43px 180px;border:1px solid #dcdcdc;}
+.contents .detailes_cnt .certification .idpw_find li.top_find {background:#f9f9f9 url("/common/job/img/bg/back/bg_phone.gif") no-repeat 45px 50%;}
+.contents .detailes_cnt .certification .idpw_find li.bottom_find {margin-top:6px;background:#f9f9f9 url("/common/job/img/bg/back/bg_ipin.gif") no-repeat 45px 50%;}
+.contents .detailes_cnt .certification .idpw_find li .find_title {font-size:14px;font-weight:600;color:#000000;}
+.contents .detailes_cnt .certification .idpw_find li p {margin-top:12px;font-size:12px;color:#585858;line-height:1.3em;}
+.contents .detailes_cnt .certification .idpw_find li .btn_form {margin-top:5px;}
+
+/* [단일]  회원정보관리 > 회원가입(정보입력), 비밀번호 변경 */
+.contents .detailes_cnt .membership_rool {margin-top:15px;padding:0 19px 23px 19px;border:1px solid #e6e6e6;}
+.contents .detailes_cnt .membership_rool ul li {margin-top:15px;padding-left:17px;background: url("/common/job/img/bg/bul/bul_dot02.gif") no-repeat 0 5px;font-size:12px;color:#666666;line-height:1.5em;}
+.contents .detailes_cnt .membership_rool ul li span {font-size:12px;font-weight:600;color:#1565c0;}
+
+/* [단일] 회원정보관리 > 회원가입(가입완료) */
+.contents .detailes_cnt .membership {margin-top:15px;padding:181px 0 52px;background:#f9f9f9 url("/common/job/img/bg/back/bg_success.png") no-repeat 50% 54px;border:1px solid #e5e5e5;text-align:center;}
+.contents .detailes_cnt .success_text {font-size:24px;color:#4c4948;line-height:1.5em;}
+.contents .detailes_cnt .success_text strong {font-size:32px;color:#252525;}
+.contents .detailes_cnt .success_text strong span {font-size:32px;color:#4d74c3;}
+
+/* [단일] 회원정보관리 > 로그인 */
+.contents .detailes_cnt .login_form {margin-top:13px;padding:45px 40px 40px 40px;background:#f9f9f9;border:1px solid #e6e6e6;}
+.contents .detailes_cnt .login_form .login_text p.welcome {font-size:18px;line-height:1em;color:#555555;line-height:1.5em;}
+.contents .detailes_cnt .login_form .login_text p.welcome strong {font-size:28px;font-weight:400;color:#252525;}
+.contents .detailes_cnt .login_form .login_text p.welcome strong span {font-size:28px;color:#4d74c3;}
+.contents .detailes_cnt .login_form .login_text p.welcome02 {margin-top:5px;font-size:16px;color:#555555;line-height:1.5em;}
+.contents .detailes_cnt .login_form .login_group {overflow:hidden;width:100%;margin-top:41px;}
+.contents .detailes_cnt .login_form .login_group .login_l {float:left;padding:8px 34px 0 0;border-right:1px dashed #d1d1d1;}
+.contents .detailes_cnt .login_form .login_group .login_l #id_text {border:1px solid #d3d3d3;}
+.contents .detailes_cnt .login_form .login_group .login_l #pw_text {border:1px solid #d3d3d3;}
+.contents .detailes_cnt .login_form .login_group .login_l .login_btn {margin-top:7px;}
+.contents .detailes_cnt .login_form .login_group .login_l .login_btn .btn_login {display:block;padding:16px 0 15px;background:#5d72cf;font-size:16px;color:#ffffff;text-align:center;}
+.contents .detailes_cnt .login_form .login_group .login_r {float:left;padding:18px 0 0 30px;}
+.contents .detailes_cnt .login_form .login_group .login_r .pw_text01 {font-size:16px;color:#4c4948;}
+.contents .detailes_cnt .login_form .login_group .login_r .pw_text02 {margin-top:17px;font-size:12px;color:#939292;line-height:1.3em;}
+.contents .detailes_cnt .login_form .login_group .login_r .member_btn {margin-top:22px;}
+.contents .detailes_cnt .login_form .login_group .login_r .member_btn a {display:inline-block;}
+.contents .detailes_cnt .login_form .login_group .login_r .member_btn a.two_btn {margin:0 4px;}
+.contents .detailes_cnt .login_form .login_group .login_r .member_btn a.btn_member {display:inline-block;padding:7px 13px 7px;background:#ffffff;border:1px solid #939393;text-align:center;}
+.contents .detailes_cnt .login_form .login_group .login_r .member_btn a.btn_member span {font-size:13px;color:#3d3d3d;}
+.contents .detailes_cnt .login_form .login_group .login_r .member_btn a.btn_member span.blue_font {font-size:13px;color:#5d72cf;}
+
+
+/* [공통] 회원정보관리 tab */
+.contents .detailes_cnt .member_tab {overflow:hidden;width:100%;background: url("/common/job/img/bg/back/bg_tab01.gif") repeat-x 0 49px;}
+.contents .detailes_cnt .member_tab li {float:left;width:33.3%;text-align:center;}
+.contents .detailes_cnt .member_tab li a {display:block;padding:17px 0 15px;background:#f2f3f5;border-width:1px 1px 0 1px;border-style:solid;border-color:#d1d1d1 #d1d1d1 #86a9f1 #d1d1d1;font-size:16px;color:#666666;line-height:1em;}
+.contents .detailes_cnt .member_tab li a.on {background:#ffffff;border-width:2px;border-style:solid solid solid solid;border-color:#86a9f1 #86a9f1 #ffffff #86a9f1;font-size:16px;color:#444444;}
+.contents .detailes_cnt .member_tab li span {display:block;padding:17px 0 15px;background:#f2f3f5;border-width:1px 1px 0 1px;border-style:solid;border-color:#d1d1d1 #d1d1d1 #86a9f1 #d1d1d1;font-size:16px;color:#666666;line-height:1em;}
+.contents .detailes_cnt .member_tab li span.on {background:#ffffff;border-width:2px;border-style:solid solid solid solid;border-color:#86a9f1 #86a9f1 #ffffff #86a9f1;font-size:16px;color:#444444;}
+
+
+
+/* [공통] layer_popup */
+.layer_popup {width:790px;background:#ffffff;border:2px solid #1F75BF;}
+.layer_popup .layer_top {padding:10px;position:relative;background:#2171BF;}
+.layer_popup .layer_top h3 {font-size:15px;font-weight:600;color:#ffffff;}
+.layer_popup .layer_top .x_btn {position:absolute;right:10px;top:8px;}
+.layer_popup .layer_content {padding:10px;}
+.layer_popup .layer_content .description_btn {position:relative;min-height:30px;}
+.layer_popup .layer_content .description_btn .btn_form_right {margin:0;position:absolute;right:0;top:0;}
+.layer_popup .layer_content .layer_tab {overflow:hidden;width:100%;margin-top:10px;background: url("/common/job/img/bg/back/bg_tab01.gif") repeat-x 0 49px;}
+.layer_popup .layer_content .layer_tab li {float:left;text-align:center;}
+.layer_popup .layer_content .layer_tab li a {display:block;padding:17px 6px 15px;background:#f2f3f5;border-width:1px 1px 0 1px;border-style:solid;border-color:#d1d1d1 #d1d1d1 #86a9f1 #d1d1d1;font-size:16px;color:#666666;line-height:1em;}
+.layer_popup .layer_content .layer_tab li a.on {background:#ffffff;border-width:2px;border-style:solid solid solid solid;border-color:#86a9f1 #86a9f1 #ffffff #86a9f1;font-size:16px;color:#444444;}
+.layer_popup .layer_content .board_data {margin-top:16px;padding:7px;position:relative;background:#fafafa;border:1px solid #dadada;}
+.layer_popup .layer_content .board_data .border_box {padding:2px;border:1px solid #dddddd;font-size:13px;}
+.layer_popup .layer_content .job_select_box {overflow:hidden;width:666px;margin:10px auto 10px;}
+.layer_popup .layer_content .job_select_box .category {overflow-y:scroll;float:left;width:180px;height:250px;margin:0 10px;padding:10px;border:1px solid #e6e6e6;}
+.layer_popup .layer_content .job_select_box .second {margin:0 10px;}
+.layer_popup .layer_content .job_select_box .category .category_tlt {display:block;color:#00538d;font-weight:600;text-align:center;}
+.layer_popup .layer_content .job_select_box .category ul li {margin-top:10px;}
+.layer_popup .layer_content .job_select_box .category ul li input {vertical-align:top;}
+.layer_popup .layer_content .job_select_box .category ul li label {display:inline-block;width:140px;margin-left:5px;}
+.layer_popup .layer_content .job_select_box02 {overflow:hidden;margin:10px auto 10px;}
+.layer_popup .layer_content .job_select_box02 .category {overflow-y:scroll;float:left;width:124px;height:250px;padding:10px;border:1px solid #e6e6e6;}
+.layer_popup .layer_content .job_select_box02 .second {margin:0 10px;}
+.layer_popup .layer_content .job_select_box02 .category .category_tlt {display:block;color:#00538d;font-weight:600;text-align:center;}
+.layer_popup .layer_content .job_select_box02 .category ul li {margin-top:10px;}
+.layer_popup .layer_content .job_select_box02 .category ul li input {vertical-align:top;}
+.layer_popup .layer_content .job_select_box02 .category ul li label {display:inline-block;width:89px;margin-left:5px;}
+.layer_popup .layer_content .job_select_box03 {overflow:hidden;width:454px;margin:10px auto 10px;}
+.layer_popup .layer_content .job_select_box03 .category {overflow-y:scroll;float:left;width:200px;height:250px;padding:10px;border:1px solid #e6e6e6;}
+.layer_popup .layer_content .job_select_box03 .second {margin:0 0 0 10px;}
+.layer_popup .layer_content .job_select_box03 .category .category_tlt {display:block;color:#00538d;font-weight:600;text-align:center;}
+.layer_popup .layer_content .job_select_box03 .category ul li {margin-top:10px;}
+.layer_popup .layer_content .job_select_box03 .category ul li input {vertical-align:top;}
+.layer_popup .layer_content .job_select_box03 .category ul li label {display:inline-block;width:89px;margin-left:5px;}
+.layer_popup .layer_content .category_result {margin-top:10px;}
+.layer_popup .layer_content .category_result .result_num span {font-weight:600;color:#00538d;}
+.layer_popup .layer_content .category_result .category_scroll {overflow-y:auto;margin-top:10px;padding:10px;height:250px;border:1px solid #e6e6e6;}
+.layer_popup .layer_content .category_result .category_scroll .category_tlt {display:block;color:#00538d;font-weight:600;text-align:center;}
+.layer_popup .layer_content .category_result .category_scroll ul li {margin-top:10px;}
+
+
+/* [공통] 3depth_tab */
+.contents .detailes_cnt .contents_tab {overflow:hidden;width:100%;background: url("/common/job/img/bg/back/bg_tab01.gif") repeat-x 0 49px;}
+.contents .detailes_cnt .contents_tab li {float:left;text-align:center;}
+.contents .detailes_cnt .contents_tab li a {display:block;padding:17px 40px 15px;background:#f2f3f5;border-width:1px 1px 0 1px;border-style:solid;border-color:#d1d1d1 #d1d1d1 #86a9f1 #d1d1d1;font-size:16px;color:#666666;line-height:1em;}
+.contents .detailes_cnt .contents_tab li a.on {background:#ffffff;border-width:2px;border-style:solid solid solid solid;border-color:#86a9f1 #86a9f1 #ffffff #86a9f1;font-size:16px;color:#444444;}
+
+

@@ -1,0 +1,82 @@
+﻿/*
+ * Nanum Gothic (Korean) http://www.google.com/webfonts/earlyaccess
+ */
+ 
+@font-face {
+	font-family: 'Nanum Gothic';
+	font-style: normal;
+	font-weight: 400;
+	src: local(※), url(/font_400/NanumGothic-Regular.eot);
+	src: local(※), url(/font_400/NanumGothic-Regular-iefix.eot) format('embedded-opentype'),  url(/font/NanumGothic-Regular.woff2) format('woff2'),  url(/font/NanumGothic-Regular.woff) format('woff'),  url(/font/NanumGothic-Regular.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Nanum Gothic';
+	font-style: normal;
+	font-weight: 700;
+	src: local(※), url(/font/NanumGothic-Bold.eot);
+	src: local(※), url(/font/NanumGothic-Bold-iefix.eot) format('embedded-opentype'),  url(/font/NanumGothic-Bold.woff2) format('woff2'),  url(/font/NanumGothic-Bold.woff) format('woff'),  url(/font/NanumGothic-Bold.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Nanum Gothic';
+	font-style: normal;
+	font-weight: 800;
+	src: local(※), url(/font/NanumGothic-ExtraBold.eot);
+	src: local(※), url(/font/NanumGothic-ExtraBold-iefix.eot) format('embedded-opentype'),  url(/font/NanumGothic-ExtraBold.woff2) format('woff2'),  url(/font/NanumGothic-ExtraBold.woff) format('woff'),  url(/font/NanumGothic-ExtraBold.ttf) format('truetype');
+}
+
+
+/* reset */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+body, th, td, select, textarea, button, div, input {
+	font-family: "Nanum Gothic", "NanumGothicBold", "Malgun Gothic", "sans-serif", Helvetica;
+	font-weight: 400;
+	color: #565656;
+	font-size: 14px;
+	word-break: keep-all;
+	letter-spacing: -1px;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, textarea, p, blockquote, th, td, input, select, textarea, button, figure, section {
+	margin: 0;
+	padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, main, address {display: block;}
+body, th, td, input, select, textarea, button {color: #000;}
+fieldset, img {	border: 0 none;}
+dl, ul, ol, menu, li {list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none
+}
+input, select, textarea, button {vertical-align: middle;}
+button {border: 0 none;	background-color: transparent;	cursor: pointer}
+table {	border-collapse: collapse;}
+address, caption, cite, code, dfn, em, var {font-style: normal;}
+label, a {cursor: pointer;}
+img {vertical-align: middle;}
+
+caption, legend {
+	position: absolute;
+	left: -9999999999px;
+	top: -999999999px;
+	font-size: 0;
+	height: 0;
+	line-height: 0;/*text-indent: -9999px;visibility: hidden;*/
+	width: 0;
+	overflow: hidden;
+}
+
+/* color값은 디자인가이드에 맞게사용 */
+/*
+a {
+	background: transparent;
+	color: #444;
+	text-decoration: none;
+}
+
+*/

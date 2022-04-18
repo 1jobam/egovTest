@@ -1,0 +1,77 @@
+.btn-approval2{
+		color:#fff !important;
+		background:#5a67e6;
+		padding:2px 6px 2px 6px;
+		font-size:11px;
+		font-weight:600;
+		border-radius:2px;
+		vertical-align:middle;
+		border:1px #5a67e6 solid;
+	}
+
+.btn-save2{
+		color:#fff !important;
+		height:28px;
+		background:#9c55b7;
+		padding:3px 6px 3px 6px;
+		font-size:11px;
+		border-radius:2px;
+		
+	}
+
+.btn-noapproval4{
+		color:#888 !important;
+		height:28px;
+		background:#fff;
+		padding:3px 5px 3px 5px;
+		font-size:11px;
+		border-radius:2px;
+		border:1px #ddd solid;
+	}
+
+.btn-noapproval5{
+		color:#fff !important;
+		height:28px;
+		background:#dd228d;
+		padding:3px 5px 3px 5px;
+		font-size:11px;
+		border-radius:2px;
+		border:1px #dd228d solid;
+	}
+	
+.btn-cancel3{
+	    color: #fff !important;
+	    background: #dd228d !important;
+	    padding: 2px 6px 2px 6px;
+	    font-size: 11px;
+	    font-weight: 600;
+	    border-radius: 2px;
+	    vertical-align: middle;
+	    border: 1px #dd228d solid;
+	}
+	
+.search_bt{
+		vertical-align: middle;
+		background-color: #657285;
+	    border: 1px solid #586678;
+	    color: white;
+	    text-align : center;
+	    font-weight: 700;
+	    padding: 4px 10px;
+	}
+	
+.userSave{
+		color:#0400ff;
+	}
+
+.adminSave{
+		color:#f71ce6;
+	}
+	
+.userCancel{
+		color:#c31010;
+	}
+	
+.adminCancel{
+		color:#c31010;
+	}

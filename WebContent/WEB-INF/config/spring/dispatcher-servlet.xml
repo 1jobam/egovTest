@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:p="http://www.springframework.org/schema/p" xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+    <context:component-scan base-package="com.test">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service"/>
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Repository"/>
+    </context:component-scan>
+
+    <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+        <property name="webBindingInitializer">
+            <bean class="egov.web.EgovBindingInitializer"/>
+        </property>
+        <property name="customArgumentResolvers">
+            <list>
+                <bean class="com.test.util.CommandMapArgumentResolver"/>
+            </list>
+        </property>        
+    </bean>
+
+    <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <property name="defaultErrorView" value="views/error/egovError"/>
+        <property name="exceptionMappings">
+            <props>
+                <prop key="egovframework.rte.fdl.cmmn.exception.EgovBizException">views/error/egovError</prop>
+                <prop key="egov.exception.AjaxSessionDisconnectException">views/error/AjaxSessionDisconnectException</prop>
+                <prop key="egov.exception.SessionDisconnectException">views/error/SessionDisconnectException</prop>
+            </props>
+        </property>
+    </bean>
+
+	<bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter" />		
+	<bean id="urlFilenameViewController" class="org.springframework.web.servlet.mvc.UrlFilenameViewController" />
+
+    <bean class="org.springframework.web.servlet.view.BeanNameViewResolver" p:order="1" />
+
+    <bean class="org.springframework.web.servlet.view.UrlBasedViewResolver" p:order="2"
+        p:viewClass="org.springframework.web.servlet.view.JstlView"
+        p:prefix="/WEB-INF/views/" p:suffix=".jsp"/>
+
+   
+	<!-- 로그인 미체크 대상을 위한 Mapper -->
+	<bean id="selectAnnotaionMapper" class="egovframework.rte.ptl.mvc.handler.SimpleUrlAnnotationHandlerMapping" p:order="1">
+		<property name="urls">
+			<set>
+				<value>/home.do</value>
+				<value>/login.do</value>
+				<value>/doLogin.do</value>
+				<value>/logout.do</value>
+				<value>/boardList.do</value>
+			</set>
+		</property>
+	</bean>
+
+	<!-- 기본 Annotation Mapper -->
+    <bean id="annotationMapper" class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" p:order="2">
+    	<property name="interceptors">
+			<list>
+				<bean class="com.test.util.LoginCheckInterceptor"/>
+			</list>
+		</property>
+    </bean>    
+    
+    <context:component-scan base-package="egov.sample.sockjs.*" />
+    
+</beans>

@@ -1,0 +1,104 @@
+@charset 'UTF-8';
+@import url('nanumgothic.css');
+/*********************************************************************************/
+/* Basic */
+/*********************************************************************************/
+
+	body{
+	  margin:0;
+	  padding:0;
+	  width:100%;
+	  text-align:center;
+	}
+
+	h1,h2,h3,h4,h5,dl,dt,dd,ul,li,ol,table,th,td,p,blockquote,form,fieldset,input,label,select,textarea,legend,div{
+		margin:0;
+		padding:0;
+		font-family:"NanumGothic","Dotum", "Gulim","나눔고딕","돋움","굴림","verdana","sans-serif","FontAwesome";
+		font-size: 12px;
+		line-height:18px;
+		word-spacing:-0.03pt;
+		word-break:break-all;
+	}
+	
+	input{
+		height:21px;
+		padding:3px;
+		color:#777;
+		text-align:left;
+		vertical-align:middle;
+		
+	}
+	
+	textarea{resize: none;}
+	
+	input:-ms-input-placeholder {color:#c0c0c0; }
+	input:-webkit-input-placeholder {color:#c0c0c0; }
+	input:-moz-placeholder {color:#c0c0c0; }
+	
+	input:-moz-read-only {background-color:#f4f4f4;} /* For Firefox */
+	input:read-only {background-color:#f4f4f4;}
+
+	select{
+		height:24px;
+		padding:3px;
+		color:#666;
+		text-align:left;
+		vertical-align:middle;
+		border:1px #e0e9f0 solid;
+		}
+
+	ul,li{list-style:none;}
+
+	table{border-collapse:collapse;}
+
+	img,fieldset{
+	    border:0 none;
+		background:transparent;
+	}
+
+	button{
+	    margin:0;
+		padding:0;
+		border:0 none;
+		background:transparent;
+		*overflow:visible;
+		cursor:pointer;
+	}
+
+	a{text-decoration:none;}
+	a:hover {text-decoration:none;}
+
+
+
+
+	/* 로딩*/
+
+	#loading {
+		height: 100%;
+		left: 0px;
+		position: fixed;
+		_position:absolute; 
+		top: 0px;
+		width: 100%;
+		filter:alpha(opacity=50);
+		-moz-opacity:0.5;
+		opacity : 0.5;
+	}	
+
+	#loading .loading {
+		background-color: white;
+		z-index: 199;
+	}
+
+	
+
+	#loading #loading_img{
+		position:absolute; 
+		top:50%;
+		left:50%;
+		height:35px;
+		margin-top:-75px;
+		margin-left:-75px;
+		z-index: 200;
+	}
